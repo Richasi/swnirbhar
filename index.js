@@ -4,7 +4,7 @@ require('dotenv').config();
 const { connections } = require('./configs/db');
 const userRouter = require('./routers/UserRouter');
 const resumeRouter = require('./routers/ResumeRouter');
-const { auth } = require('./middilewares/authMiddileware');
+const { auth } = require('./middilewares/AuthMiddileware');
 
 
 
